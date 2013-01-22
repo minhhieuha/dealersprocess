@@ -1,0 +1,1 @@
+{"result":"successful","sample_questions":[{"sample_question":{"id":"1","content":"Opinions needed"}},{"sample_question":{"id":"2","content":"Should I get this?"}},{"sample_question":{"id":"3","content":"Good match?"}}, {"sample_question":{"id":"4","content":"For an occasion"}}]}

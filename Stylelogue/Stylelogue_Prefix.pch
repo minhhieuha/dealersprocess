@@ -1,0 +1,44 @@
+//
+// Prefix header for all source files of the 'Stylelogue' target in the 'Stylelogue' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "FBConnect.h"
+	#import "UIViewExtension.h"
+	#import "ColorDirective.h"
+
+	//#define	STYLELOGOUE_DEBUG
+	#ifdef STYLELOGOUE_DEBUG
+		#define XQDebug NSLog
+	#else
+		#define XQDebug
+	#endif		
+	#define LOADDING_POSITION  100
+	#define RETRY_TIMES 2
+	#define TIMES_OUT 500
+	#define MORE_POSITION 18
+	#define FONT @"HelveticaNeue-Light"
+	#define FONT2 @"HelveticaNeue-Bold"
+	#define SIZEFONT2 30
+	#define FONTREGULAR @"HelveticaNeue"
+	#define FONTSIZE 18
+	#define TITLESIZE 25
+	#define TITLESIZE33 22 
+	#define MAINCOLOR RGBCOLOR(0xe5, 0xe5, 0xe5)
+	#define OPINIONNUMBERSIZE 10
+	#define LOADDINGSIZE 20
+	#define CAPITALSIZE 18
+	#define STATESIZE 15
+	#define STATECOLOR RGBCOLOR(0x71, 0x71, 0x71)
+
+	#define RATESIZE 12
+	#define RATECOLOR RGBCOLOR(0x71, 0x71, 0x71)
+	#define TOOLBARSIZE 12
+	#define UINAVIGATIONBARSIZE 10
+	#define DATECOLOR RGBCOLOR(0x51, 0x50, 0x50)
+	#define LOADDINGHEIGHT 2
+    #define LOGINSIZE 13
+
+#endif
